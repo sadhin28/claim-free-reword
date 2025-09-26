@@ -12,12 +12,12 @@ export default function Home() {
           Spin the wheel, complete offers, and grab exclusive rewards instantly.
         </p>
         <div className="space-x-4">
-          <a
-            href="/offers"
+          <Link
+           to="/offers"
             className="px-6 py-3 bg-green-500 rounded-lg shadow-lg font-medium hover:bg-green-600 transition"
           >
             Get Started
-          </a>
+          </Link>
           <Link
             to="/how-it-works"
             className="px-6 py-3 bg-white text-blue-700 rounded-lg shadow-lg font-medium hover:bg-gray-200 transition"
