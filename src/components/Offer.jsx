@@ -8,7 +8,7 @@ const Offer = () => {
     return (
         
         <div>
-           <h1 className="text-center py-10 font-bold text-gray-700">অল্প পরিশ্রম অনেক উপহার</h1>
+           <h1 className="text-center py-10 font-bold text-gray-700">A little effort is a big gift</h1>
          <div className="grid md:grid-cols-3 gap-5">
                {
                 data.map(data=><OfferCard key={data.id} data={data}/>)
