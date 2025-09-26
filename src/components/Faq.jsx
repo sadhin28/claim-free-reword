@@ -2,7 +2,7 @@ export default function FAQ() {
   const faqs = [
     {
     q: "Is it free?",
-a: "Yes, all our offers are completely free.",
+    a: "Yes, all our offers are completely free.",
     },
     {
      q: "When will I get my reward?",
