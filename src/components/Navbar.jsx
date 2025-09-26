@@ -40,9 +40,7 @@ export default function Navbar() {
         </ul>
 
         {/* Login Button */}
-        <button className="hidden md:block bg-white text-blue-600 px-4 py-1 rounded hover:bg-gray-100">
-          Login
-        </button>
+       
 
         {/* Mobile Hamburger */}
         <div className="md:hidden">
@@ -95,11 +93,7 @@ export default function Navbar() {
               </NavLink>
             </li>
           ))}
-          <li>
-            <button className="w-full bg-white text-blue-600 px-4 py-1 rounded hover:bg-gray-100">
-              Login
-            </button>
-          </li>
+         
         </ul>
       )}
     </nav>

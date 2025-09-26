@@ -30,7 +30,7 @@ export default function Home() {
         <div className="p-6 bg-white/10 backdrop-blur rounded-xl shadow-lg hover:scale-105 transition">
           <h2 className="text-2xl font-bold mb-2">💡 Easy to Use</h2>
           <p className="text-gray-200">
-            Just sign up, choose an offer, and claim your reward effortlessly.
+            Just choose an offer, and claim your reward effortlessly.
           </p>
         </div>
         <div className="p-6 bg-white/10 backdrop-blur rounded-xl shadow-lg hover:scale-105 transition">
