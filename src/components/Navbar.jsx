@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="bg-blue-600 text-white px-6 py-3 flex justify-between items-center">
       {/* Logo */}
       <Link to="/" className="text-xl font-bold">
-        ফ্রি রিওয়ার্ড
+       Free Reward Hub 🎁
       </Link>
 
       {/* Menu */}
@@ -19,11 +19,6 @@ export default function Navbar() {
         <li>
           <Link to="/offers" className="hover:text-gray-200">
             Offers
-          </Link>
-        </li>
-        <li>
-          <Link to="/dashboard" className="hover:text-gray-200">
-            Dashboard
           </Link>
         </li>
       </ul>
