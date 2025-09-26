@@ -7,9 +7,9 @@ const Offer = () => {
     console.log(data);
     return (
         
-        <div className="bg-gradient-to-r from-blue-500 via-indigo-600 to-purple-700 text-white px-6">
+        <div>
            <h1 className="text-center py-10 font-bold text-gray-700">অল্প পরিশ্রম অনেক উপহার</h1>
-         <div className="grid md:grid-cols-3 gap-5 p-3">
+         <div className="grid md:grid-cols-3 gap-5">
                {
                 data.map(data=><OfferCard key={data.id} data={data}/>)
             }
