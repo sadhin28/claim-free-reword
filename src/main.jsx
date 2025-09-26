@@ -9,6 +9,8 @@ import {
 import Offer from './components/Offer.jsx';
 import Home from './components/Home.jsx';
 import About from './components/AboutUs.jsx';
+import FAQ from './components/Faq.jsx';
+import HowItWorks from './components/HowitWork.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
      {
       path:"/about",
       element:<About/>
+     },
+     {
+      path:"/faq",
+      element:<FAQ/>
+     },
+     {
+      path:"/how-it-works",
+      element:<HowItWorks/>
      }
     ]},
 
