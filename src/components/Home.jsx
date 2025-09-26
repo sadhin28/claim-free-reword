@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return (
     <div className="py-5 min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-500 via-indigo-600 to-purple-700 text-white px-6">
@@ -16,12 +18,12 @@ export default function Home() {
           >
             Get Started
           </a>
-          <a
-            href="/how-it-works"
+          <Link
+            to="/how-it-works"
             className="px-6 py-3 bg-white text-blue-700 rounded-lg shadow-lg font-medium hover:bg-gray-200 transition"
           >
             How It Works
-          </a>
+          </Link>
         </div>
       </div>
 
