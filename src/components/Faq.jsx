@@ -1,12 +1,12 @@
 export default function FAQ() {
   const faqs = [
     {
-      q: "এটা কি ফ্রি?",
-      a: "হ্যাঁ, আমাদের সব অফার সম্পূর্ণ ফ্রি।",
+    q: "Is it free?",
+a: "Yes, all our offers are completely free.",
     },
     {
-      q: "রিওয়ার্ড কবে পাব?",
-      a: "সাধারণত সাথে সাথেই, কখনো ২৪ ঘন্টার মধ্যে।",
+     q: "When will I get my reward?",
+a: "Usually immediately, sometimes within 24 hours.",
     },
   ];
 

@@ -1,8 +1,8 @@
 export default function HowItWorks() {
   const steps = [
-    "ফ্রি অ্যাকাউন্ট খুলুন",
-    "অফার বেছে নিন এবং সম্পূর্ণ করুন",
-    "আপনার রিওয়ার্ড সাথে সাথে Claim করুন",
+   "Open a free account",
+   "Choose and complete the offer",
+   "Claim your rewards instantly",
   ];
 
   return (
