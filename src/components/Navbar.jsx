@@ -17,7 +17,7 @@ export default function Navbar() {
     { name: "Offers", to: "/offers" },
     { name: "How It Works", to: "/how-it-works" },
     { name: "FAQ", to: "/faq" },
-    { name: "Contact", to: "/contact" },
+    { name: "About", to: "/about" },
   ];
 
   return (

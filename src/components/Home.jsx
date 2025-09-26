@@ -2,8 +2,8 @@ export default function Home() {
   return (
     <div className="py-5 min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-500 via-indigo-600 to-purple-700 text-white px-6">
       {/* Hero Section */}
-      <div className="mt-20 text-center space-y-6 max-w-2xl">
-        <h1 className="text-5xl md:text-6xl font-extrabold leading-tight drop-shadow-lg">
+      <div className=" text-center space-y-6 max-w-7xl">
+        <h1 className="text-3xl md:text-6xl font-extrabold leading-tight drop-shadow-lg">
           Unlock Free Rewards 🎁
         </h1>
         <p className="text-lg md:text-xl text-gray-100">
