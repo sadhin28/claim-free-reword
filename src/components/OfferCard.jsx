@@ -1,6 +1,6 @@
 export default function OfferCard({ data }) {
   return (
-    <div className="bg-gray-100/30 p-4 border rounded-lg shadow hover:shadow-md transition">
+    <div className="bg-gray-100/30 p-4 border rounded-lg shadow hover:shadow-2xl transition">
       {/* Logo / Icon */}
       <img
         src={data?.network_icon}
