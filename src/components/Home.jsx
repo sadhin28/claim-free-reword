@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="py-5 min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-500 via-indigo-600 to-purple-700 text-white px-6">
+    <div className="py-5 min-h-screen flex flex-col justify-center items-center  text-white px-6">
       {/* Hero Section */}
       <div className=" text-center space-y-6 max-w-7xl">
         <h1 className="text-3xl md:text-6xl font-extrabold leading-tight drop-shadow-lg">
