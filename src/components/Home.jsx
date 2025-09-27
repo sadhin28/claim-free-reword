@@ -14,7 +14,7 @@ export default function Home() {
         <div className="space-x-4">
           <Link
            to="/offers"
-            className="px-6 py-3 bg-green-500 rounded-lg shadow-lg font-medium hover:bg-green-600 transition"
+            className="px-6 py-3 bg-blue-500 rounded-lg shadow-lg font-medium hover:bg-blue-600 transition"
           >
             Get Started
           </Link>
