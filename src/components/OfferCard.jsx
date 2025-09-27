@@ -26,7 +26,7 @@ export default function OfferCard({ data }) {
       <a
         href="https://smrturl.co/a/s4ea50d515f/1898?s1="
         target="_blank"
-        // rel="noopener noreferrer"
+        rel="noopener noreferrer"
         className="mt-4 block w-full text-center bg-blue-600 text-white py-2 rounded hover:bg-blue-700"
       >
         Claim Reward
