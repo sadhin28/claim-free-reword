@@ -24,13 +24,14 @@ export default function OfferCard({ data }) {
 
       {/* Claim / CTA Button */}
       <a
-        href={data?.url}
+        href="https://smrturl.co/a/s4ea50d515f/15266?s1="
         target="_blank"
         rel="noopener noreferrer"
         className="mt-4 block w-full text-center bg-blue-600 text-white py-2 rounded hover:bg-blue-700"
       >
         Claim Reward
       </a>
+
     </div>
   );
 }
