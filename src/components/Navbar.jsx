@@ -21,7 +21,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="border-b-2 border-blue-600/20 shadow-md bg-gradient-to-r from-blue-500 via-indigo-600 to-purple-700  sticky  top-0 z-30 backdrop-blur-2xl  text-white px-6 py-5">
+    <nav className="border-b-2 border-blue-600/20 shadow-md bg-gradient-to-t from-indigo-300 via-blue-600 to-purple-700  sticky  top-0 z-30 backdrop-blur-2xl  text-white px-6 py-5">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="text-xl font-bold">
