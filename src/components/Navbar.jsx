@@ -9,7 +9,7 @@ export default function Navbar() {
     `hover:text-gray-200 ${isActive ? "font-bold underline  decoration-pink-500 " : ""}`;
 
   const activeClassMobile = ({ isActive }) =>
-    `block px-2 py-1 rounded hover:bg-blue-500 ${isActive ? "font-bold underline" : ""}`;
+    `block px-2 py-1 rounded hover:bg-blue-500 ${isActive ? "font-bold underline decoration-pink-500" : ""}`;
 
   // Menu items
   const menuItems = [
