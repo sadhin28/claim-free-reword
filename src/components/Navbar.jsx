@@ -6,7 +6,7 @@ export default function Navbar() {
 
   // Active class function
   const activeClass = ({ isActive }) =>
-    `hover:text-gray-200 ${isActive ? "font-bold underline" : ""}`;
+    `hover:text-gray-200 ${isActive ? "font-bold underline  decoration-pink-500 " : ""}`;
 
   const activeClassMobile = ({ isActive }) =>
     `block px-2 py-1 rounded hover:bg-blue-500 ${isActive ? "font-bold underline" : ""}`;
